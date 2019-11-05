@@ -1,0 +1,40 @@
+.servise-list {
+  list-style: none;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.servise-list__item {
+  display: flex;
+  padding: 7px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servise-list__item:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.service-list__btn {
+  border: none;
+  background: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-list_icon_edit {
+  display: inline-block;
+  background: url('./edit.svg') no-repeat center/50%;
+  background-color: #db3948;
+}
+
+.service-list_icon_cancel {
+  background: url('./multiply.svg') no-repeat center/50%;
+  background-color: #db3948;
+}
+
+.service-list__btn:not(:last-child) {
+  margin-right: 6px;
+}

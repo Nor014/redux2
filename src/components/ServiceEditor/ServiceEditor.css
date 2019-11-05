@@ -1,0 +1,36 @@
+.service__fieldset {
+  border: none;
+}
+.service__label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.service__input {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 12px 14px;
+  margin-top: 15px;
+}
+
+.service__inner {
+  display: flex;
+}
+
+.service__btn {
+  padding: 12px;
+  background-color: #db3948;
+  color: white;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.link-btn {
+  text-decoration: none;
+  outline: none;
+}
